@@ -11,7 +11,6 @@ class Employee:
         self.get_pay()
 
     def get_pay(self):
-        print(self.totalPay)
         return self.totalPay
 
     def __str__(self):
